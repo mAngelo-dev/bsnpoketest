@@ -1,10 +1,10 @@
+import Home from "./pages/home/Home.tsx";
+
 function App() {
 
   return (
     <>
-        <div>
-            <h1 className={'text-2xl font-bold text-center'}>This is the app.</h1>
-        </div>
+        <Home/>
     </>
   )
 }
