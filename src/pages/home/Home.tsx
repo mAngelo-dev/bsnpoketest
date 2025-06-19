@@ -1,9 +1,11 @@
-import Navbar from "./components/Navbar.tsx";
+import { useSearchParams } from "react-router-dom";
 
 function Home() {
+    const [searchParams] = useSearchParams();
+    console.log(searchParams);
     return (
         <>
-            <Navbar />
+            <h1>Aqui irá o searchParam</h1>
         </>
     )
 }

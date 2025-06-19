@@ -1,12 +1,12 @@
 import Home from "./pages/home/Home.tsx";
+import Navbar from "./Navbar.tsx";
 
 function App() {
 
-  return (
-    <>
-        <Home/>
-    </>
-  )
+  return (<>
+      <Navbar/>
+      <Home/>
+    </>)
 }
 
 export default App
